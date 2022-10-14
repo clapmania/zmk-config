@@ -87,10 +87,10 @@
 
         right_layer {
             bindings = <
- &kp K_COFFEE  &kp K_BACK    &kp C_AC_SCROLL_UP  &kp K_FORWARD  &trans  &trans  &kp C_VOL_UP         &kp UP  &kp C_VOL_DN  &bt BT_CLR
-       &trans      &trans  &kp C_AC_SCROLL_DOWN         &trans  &trans  &trans      &kp LEFT       &kp DOWN     &kp RIGHT  &bt BT_NXT
-       &trans      &trans                &trans         &trans  &trans  &trans   &kp PAGE_UP  &kp PAGE_DOWN      &kp HOME  &bt BT_PRV
-                                                         &mo 2  &trans  &trans         &mo 3
+  &kp K_COFFEE  &kp K_BACK    &kp C_AC_SCROLL_UP  &kp K_FORWARD  &trans  &kp C_MUTE  &kp C_VOL_UP         &kp UP  &kp C_VOL_DN  &bt BT_CLR
+ &kp C_AC_FIND   &kp K_WWW  &kp C_AC_SCROLL_DOWN  &kp K_REFRESH  &trans      &trans      &kp LEFT       &kp DOWN     &kp RIGHT  &bt BT_NXT
+        &trans      &trans                &trans         &trans  &trans      &trans   &kp PAGE_UP  &kp PAGE_DOWN      &kp HOME  &bt BT_PRV
+                                                          &mo 2  &trans      &trans         &mo 3
             >;
         };
 
