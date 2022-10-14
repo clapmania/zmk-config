@@ -57,6 +57,11 @@
             bindings = <&kp CAPS>;
             key-positions = <20 21>;
         };
+
+        new_combo {
+            bindings = <&kp DELETE>;
+            key-positions = <7 8>;
+        };
     };
 
     keymap {
